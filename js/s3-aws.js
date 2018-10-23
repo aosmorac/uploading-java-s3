@@ -11,11 +11,11 @@
  * Objeto con los datos de configuración inicial
  */
 const AWS_credentials = {
-      userName: 'developer'
-    , accessKeyId: 'AKIAJESDFYBUNGQELXPA'
-    , secretAccessKey: '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'
+      userName: 'user'
+    , accessKeyId: 'ACCESKEYID'
+    , secretAccessKey: 'SECRET'
     , region: 'us-east-1'
-    , defaultBucket: 'udistrital-test'    /* Nombre por defecto del bucket en S3 AWS */
+    , defaultBucket: 'BUCKET'    /* Nombre por defecto del bucket en S3 AWS */
 };
 
 /*
