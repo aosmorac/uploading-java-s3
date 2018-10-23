@@ -1,27 +1,27 @@
-#Upload Files
+# Upload Files
 
 A continuación se realizarán los pasos para implementar un formulario que suba directamente un archivo a S3 de AWS.
 
-##Fuentes
+## Fuentes
 
 * https://docs.aws.amazon.com 
 * https://docs.aws.amazon.com/s3/index.html?id=docs_gateway#lang/es_es
 
 * https://aws.amazon.com/es/developer/ 
 
-##Prerrequisitos
+## Prerrequisitos
 
 * Tener una cuenta en AWS
 * Tener un bocket en S3 (https://console.aws.amazon.com/s3/buckets/udistrital-test)
 
-##Subiendo archivos con JavaScript
+## Subiendo archivos con JavaScript
 
-####Construir formulario HTML.
+#### Construir formulario HTML.
 
-####Cargar aws script api 
+#### Cargar aws script api 
 https://sdk.amazonaws.com/js/aws-sdk-2.3.15.min.js
 
-####Construir librería para gestionar S3 API (s3-aws.js)
+#### Construir librería para gestionar S3 API (s3-aws.js)
 
 * Obtenemos y agregamos las credenciales de AWS.
 ```
